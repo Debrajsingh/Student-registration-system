@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff9966, #66ffcc);
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  margin: 20px auto;
+}
+
+input {
+  margin: 5px;
+  padding: 8px;
+  width: 90%;
+  justify-content: center;
+}
+
+table {
+    width: 90%;
+    margin: 20px auto 0 auto; 
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center; 
+}
+
+button {
+    padding: 8px 18px;
+    cursor: pointer;
+    background:  #ff9966;
+    color: #222;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+button:hover, button:focus {
+    background:  #66ffcc;
+    color: #fff;
+    transform: translateY(-2px) scale(1.04);
+    outline: none;
+}
